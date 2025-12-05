@@ -19,9 +19,8 @@ def solve(start, instruction):
     return (end, rotations)
 
 if __name__ == "__main__":
-
     input_lines = []
-    with open('day1/input.txt') as f:
+    with open('day1/test_input.txt') as f:
         input_lines = [line.strip() for line in f if line.strip()]
 
     cur = 50
